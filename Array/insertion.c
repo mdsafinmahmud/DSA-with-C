@@ -25,7 +25,7 @@ int main()
 
     return 0;
 }
-
+// Algorithm for this C code
 // 1.Start
 // 2.Declare array with sufficient size
 // 3.Read number of elements N
