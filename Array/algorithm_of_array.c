@@ -26,7 +26,7 @@ int main()
 // 2. Set J = N
 // 3. Set N = N + 1
 // 4. Repeat steps 5 and 6 while J >= K
-// 5. Set LA[J + 1] = LA[J]
+// 5. Set arr[J + 1] = arr[J]
 // 6. Set J = J - 1
-// 7. Set LA[K] = ITEM
+// 7. Set arr[K] = ITEM
 // 8. Stop
