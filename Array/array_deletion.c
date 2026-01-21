@@ -22,7 +22,7 @@ int main()
     printf("After Deletion:\n");
     for (i = 0; i < n; i++)
     {
-        printf("array[%d]=%d\n");
+        printf("array[%d]=%d\n", i, Arr[i]);
     }
     return 0;
 }
