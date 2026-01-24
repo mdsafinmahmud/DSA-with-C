@@ -2,7 +2,7 @@
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
-    int insert = 10, k = 3, n = 5;
+    int insert = 10, k = 3, n = 8;
     int i = 0, j = n - 1;
     printf("The original array emplements is:\n");
     for (i = 0; i < n; i++)
@@ -10,7 +10,7 @@ int main()
         printf("Array[%d]=%d\n", i, arr[i]);
     }
     n++;
-    for (j = n - 1; j >= k; j--)
+    for (j; j >= k; j--)
         arr[j + 1] = arr[j];
     arr[k] = insert;
     printf("The array elements after the insertion: \n");
