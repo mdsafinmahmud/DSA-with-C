@@ -15,8 +15,9 @@ int main()
     Arr[indx + 1] = vlu;
     N++;
     printf("After insertion:\n");
-    for (i = 0; i < N; i++)
+    for (i = 0; i < N; i++){
         printf("array[%d]=%d\n", i, Arr[i]);
+    }
     return 0;
 }
 
