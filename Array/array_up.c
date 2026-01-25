@@ -2,7 +2,7 @@
 
 int main()
 {
-    int arr[11] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int n = 10, k = 4, new = 23;
     int i;
     printf("Array:\n");
