@@ -13,8 +13,8 @@ int main()
         printf("%d\n", arr[i]);
     }
     while (start < end)
-    temp = arr[start];
     {
+        temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
         start++;
